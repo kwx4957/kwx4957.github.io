@@ -16,7 +16,7 @@ timezone: Asia/Seoul
 
 title: dudududud # the main title
 
-tagline: 내 경험을 기록한다 # it will display as the subtitle
+tagline: "내 경험을 기록한다" # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
@@ -34,12 +34,12 @@ github:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: kwx4957
+  name: "kwx4957"
   email: kwx4957@gmail.com # change to your email address
   links:
+    - https://github.com/kwx4957 # change to your GitHub homepage
     # The first element serves as the copyright owner's link
     # - https://twitter.com/username # change to your Twitter homepage
-    - https://github.com/kwx4957 # change to your GitHub homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
@@ -109,7 +109,7 @@ toc: true
 
 comments:
   # Global switch for the post-comment system. Keeping it empty means disabled.
-  provider: # [disqus | utterances | giscus]
+  provider: giscus # [disqus | utterances | giscus]
   # The provider options are as follows:
   disqus:
     shortname: # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
@@ -119,14 +119,14 @@ comments:
     issue_term: # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo: # <gh-username>/<repo>
-    repo_id:
-    category:
-    category_id:
+    repo: kwx4957/kwx4957.github.io
+    repo_id: R_kgDOPa82mw
+    category: General
+    category_id: DIC_kwDOPa82m84Ct_ew
     mapping: # optional, default to 'pathname'
     strict: # optional, default to '0'
     input_position: # optional, default to 'bottom'
-    lang: # optional, default to the value of `site.lang`
+    lang: ko-KR # optional, default to the value of `site.lang`
     reactions_enabled: # optional, default to the value of `1`
 
 # Self-hosted static assets, optional › https://github.com/cotes2020/chirpy-static-assets
@@ -182,6 +182,7 @@ defaults:
       # DO NOT modify the following parameter unless you are confident enough
       # to update the code of all other post links in this project.
       permalink: /posts/:title/
+      author: kwx4957
   - scope:
       path: _drafts
     values:
