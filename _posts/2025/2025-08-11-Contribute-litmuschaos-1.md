@@ -7,7 +7,7 @@ date: 2025-08-11 00:36 +0900
 
 > 오픈소스 컨트리뷰션 2024 에 참가하여 litmusChaos 프로젝트를 다루는 도중에 발생한 일을 기록한 글입니다.
 
-litmusChaos를 다루던 중에 web 부분에서 간단한 오류를 발견하게 되었다. 해당 부분을 수정하기 위해서 코드를 다운받고 [공식 가이드](%5Bhttps://github.com/litmuschaos/litmus/wiki/ChaosCenter-Development-Guide%5D\(https://github.com/litmuschaos/litmus/wiki/ChaosCenter-Development-Guide\))에 따라서 코드를 실행시켰다.
+litmusChaos를 다루던 중에 web 부분에서 간단한 오류를 발견하게 되었다. 해당 부분을 수정하기 위해서 코드를 다운받고 [공식 가이드](https://github.com/litmuschaos/litmus/wiki/ChaosCenter-Development-Guide\)에 따라서 코드를 실행시켰다.
 
 공식 가이드를 처음부터 발견한 것은 아니었다. web 부분을 실행하기 위해서 이것저것 하다가 백엔드가 필요한 것을 깨달았고, 뒤끝에 문서를 뒤지다가 `contributing.md` 에서 가이드라인 문서를 발견하게 되었다.
 
