@@ -2,6 +2,7 @@
 title: LitmusChaos 오픈소스 기여하기2
 categories: [opensource,litmuschaos]
 tags: [k8s,go,litmuschaos,chaosengineering]
+date: 2025-01-02 01:12:09 +0900
 ---
 
 ### 상황
@@ -14,7 +15,7 @@ tags: [k8s,go,litmuschaos,chaosengineering]
 
 ### 구성도
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e455bf42-a30f-43bb-9521-45ff77e9bee7/147f9e54-e51a-492b-9e91-59ae4478ae4c/image.png)
+![](/assets/img/litmuschaos/graphql-log-issue.png)
 
 ### 어떻게 해결했는가?
 
@@ -90,7 +91,7 @@ SendRequest
 
 간단하지만 grqaph을 사용해본 바, rest api와는 색다른 맛을 느꼈다. 즐거운 점은 누군가 내 코드를 읽고 잘 사용하기 위해서 스스로 더 많은 생각과 고민을 하게 된다는 점. 왜라는 질문이 굉장히 중요함을 느낀다. 
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e455bf42-a30f-43bb-9521-45ff77e9bee7/e804c991-c41e-4ba3-b0b0-603ac169e1e6/image.png)
+![](/assets/img/litmuschaos/graphql-log-result.png)
 
 [Ref]   
 [litmuschaos architecture](https://docs.litmuschaos.io/docs/architecture/chaos-execution-plane)   
