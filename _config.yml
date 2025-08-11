@@ -232,3 +232,7 @@ jekyll_compose:
     posts:
       category:
       tags:
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
