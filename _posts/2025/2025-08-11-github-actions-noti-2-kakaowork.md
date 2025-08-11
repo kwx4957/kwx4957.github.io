@@ -12,6 +12,8 @@ date: 2025-08-11 01:01 +0900
 관리자 사이트에서 개발자에 대한 권한을 부여합니다. 그리고나서 개발자는 봇을 생성하면 App Key가 발급이 됩니다.  
 잘 작동하는지 테스트하기 위해 다음 요청을 보냈고 이에 대한 응답으로 user_id가 필요하다는 에러가 반환되었습니다.
 
+{% raw %}
+
 ```sh
 curl -X POST https://api.kakaowork.com/v1/conversations.open \
   -H "Content-type: application/json" \
@@ -150,6 +152,7 @@ steps:
                       "accent": true}
                   ]}' > /dev/null
 ```
+{% endraw %}
 
 Ref  
 [https://docs.kakaoi.ai/kakao\_work/botdevguide/#%EC%95%8C%EB%A6%BC%ED%98%95](https://docs.kakaoi.ai/kakao_work/botdevguide/#%EC%95%8C%EB%A6%BC%ED%98%95)  
