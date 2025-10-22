@@ -203,14 +203,14 @@ time="2025-10-22T01:22:35Z" level=info msg="Instantiating new Kubernetes client"
    2025-10-22 10:22:35.528   
 time="2025-10-22T01:22:35Z" level=info msg="Created GatewayAPI client https://10.233.0.1:443"
 ```
-[troubleshooting]
+[troubleshooting]  
 https://github.com/kubernetes-sigs/external-dns/issues/4768
 
 [공식]  
 https://kubernetes-sigs.github.io/external-dns/latest/docs/sources/gateway-api/  
 https://kubernetes-sigs.github.io/external-dns/latest/docs/tutorials/rfc2136/#using-with-bind
 
-[dns]
+[dns]  
 https://docs.rockylinux.org/10/guides/dns/private_dns_server_using_bind/  
 https://docs.redhat.com/ko/documentation/red_hat_enterprise_linux/8/html/deploying_different_types_of_servers/assembly_configuring-zones-on-a-bind-dns-server_assembly_setting-up-and-configuring-a-bind-dns-server
 
