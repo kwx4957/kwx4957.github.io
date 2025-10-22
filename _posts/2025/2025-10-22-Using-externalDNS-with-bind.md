@@ -2,7 +2,7 @@
 title: Using externalDNS with bind
 categories: [k8s]
 tags: [k8s,linux]
-date: 2025-01-02 01:12:09 +0900
+date: 2025-10-22 01:12:09 +0900
 ---
 
 ## BIND 구성
@@ -46,7 +46,7 @@ k8s zone 설정
 mkdir -p /etc/bind/pri/k8s/
 vi /etc/bind/pri/k8s/k8s.zone
 $TTL 60
-@         IN SOA  ns.gateway.com. dykim.astkorea.net. (
+@         IN SOA  ns.gateway.com. admin.google.com. (
                                 16         ; serial
                                 60         ; refresh (1 minute)
                                 60         ; retry (1 minute)
@@ -54,7 +54,7 @@ $TTL 60
                                 60         ; minimum (1 minute)
                                 )
                         NS      ns.gateway.com.
-ns                      A       192.168.1.200
+ns                      A       192.168.0.1
 
 named-checkzone gateway.com /etc/bind/pri/k8s/k8s.zone
 
