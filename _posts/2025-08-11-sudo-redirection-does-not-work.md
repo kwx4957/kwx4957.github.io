@@ -1,6 +1,6 @@
 ---
 layout: post
-title: sudo-redirection-does-not-work
+title: sudo redirection does not work
 date: 2025-08-11 21:11 +0900
 category: [linux,cmd]
 tags: [linux]
@@ -17,7 +17,7 @@ sudo echo “hello, wold” > /etc/hosts
 이러한 문제를 해결하기 위해서는 해당 명령어와 같이 sh를 수행하면 된다.
 ```sh
 sudo sh -c "echo 'hello, worlld’ >> /etc/hosts"
-
+# 또는
 echo “hello” | sudo tee -a /etc/hosts >> /dev/null
 ```
 
